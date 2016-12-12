@@ -3,7 +3,7 @@ COMMAND1 = "name 1 spieces of dolphin"
 COMMAND2 = "whats my favorite candy"
 COMMAND3 = "name my favorite breed of dog"
 COMMAND4 = "what do i like" 
-
+COMMAND5 = "who is awesome"
 
 
 
@@ -23,7 +23,13 @@ def handle_command(command):
     elif command.find(COMMAND3) >= 0:
          response = "corgi"
     elif command.find(COMMAND4) >= 0:
+         response = "doughnuts"
+    elif command.find(COMMAND5)
+          response = "Kent!!!"
+    
+   
          
-         response = "doughnut"
+        
+        
         
     return response
